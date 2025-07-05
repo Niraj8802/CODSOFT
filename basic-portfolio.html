@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>basic-portfolio</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+             body {
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 1.6;
+                background: whitesmoke;
+                color:black;
+             }
+             header {
+                background:blue;
+                color: white;
+                padding: 20px 0;
+                text-align: center;
+             }
+             header h1 {
+                margin-bottom: 5px;
+             }
+             section {
+                padding: 40px 20px;
+                max-width: 1000px;
+                margin: auto;
+             }
+             .about img {
+                width: 150px;
+                border-radius: 50px;
+                margin-bottom: 20px;
+             }
+             .skills ul {
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+             }
+             .skills li {
+                background:blue;
+                color: white;
+                padding: 10px 15px;
+                border-radius: 5px;
+             }
+             .projects .projects {
+                background:white;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-left: 5px soloid grey;
+                box-shadow: 0 2px 5px rgba(red, green, blue, alpha);
+             }
+             .projects img {
+                max-width: 15%;
+                margin-top: 4px;
+             }
+             .resume a {
+                display: inline-block;
+                padding: 10px 20px;
+                background:blue;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+             }
+             .contact p {
+                margin: 10px 0;
+             }
+             footer {
+                background-color: blue;
+                color: silver;
+                text-align: center;
+                padding: 15px 0;
+             }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Niraj Kumar</h1>
+            <p>Web Developer | Front-End Enthusiast</p>
+        </header>
+        <section class="about" id="about">
+            <h2>About Me</h2>
+            <img src="nirajkumar.jpg" alt="about image"/>
+            <p>Hi! I'm a passionate web developer with a strong interest in building responsive and user-friendly websites. I enjoy learning new technologies and applying them to solve real-world problems.</p>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <h3>1.Landing page</h3>
+                <p>A clean, mobile-friendly portfolio built with HTML, CSS.</p>
+                  <img src="landing page.jpg" alt="landing page"/>
+            </div>
+            <div class="projects">
+                <h3>2.Calculator App</h3>
+                <p>A basic calculator app using HTML, CSS, and JavaScript for all basic operations.</p>
+                <img src="calculator.jpg" alt="calculator"/>
+            </div>
+        </section>
+        <section class="resume" id="resume">
+            <h2>Resume</h2>
+            <a href="C:\Users\hp\OneDrive\Dokumen\niraj resume.67.2.pdf" download>Download My Resume(PDF)</a>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact</h2>
+            <p>Email : nirajkumarrhs968@gmail.com</p>
+            <p>+91-8676910827</p>
+        </section>
+
+         <footer>
+            <p>&copy; 2025 Niraj Kumar.All rights reserved.</p>
+         </footer>
+    </body>
+</html>
